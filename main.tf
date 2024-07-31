@@ -12,3 +12,4 @@ resource "aws_vpc" "dep1" {
       "Name" = "VPC1"
       
     }
+}

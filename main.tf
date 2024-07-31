@@ -1,15 +1,14 @@
 provider "aws" {
-  access_key = "AKIA5CNHOO"
-  secret_key = "UyFYoT0jdJDRXb1eL6H03"
+  access_key = "AKIAW5IZRWOYXSOWJSNG"
+  secret_key = "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"
   region = "us-east-1"
 
 }
 
-
-resource "aws_vpc" "dep1" {
+resource "aws_vpc" "dep2" {
     cidr_block = "192.168.0.0/16"
     tags = {
-      "Name" = "VPC1"
+      "Name" = "VPC3333"
       
     }
 }
